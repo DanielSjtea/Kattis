@@ -5,7 +5,6 @@ public class kattissquest{
 	public static void main(String[] args) throws IOException {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		int numCommands = Integer.parseInt(reader.readLine());
-		
 		TreeSet<Quest> allQuests = new TreeSet<Quest>(new SortLargestEnergy());
 		
 		for (int i = 0; i < numCommands; i++) {
