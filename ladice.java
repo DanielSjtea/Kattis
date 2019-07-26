@@ -9,7 +9,6 @@ public class ladice{
 		
 		int numItems = Integer.parseInt(toRead[0]);
 		int numDrawers = Integer.parseInt(toRead[1]);
-		
 		UFDS allDrawers = new UFDS(numDrawers);
 		
 		for (int i = 0; i < numItems; i++) {
