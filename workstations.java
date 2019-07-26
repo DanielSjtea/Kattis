@@ -3,7 +3,6 @@ import java.io.*;
 
 public class workstations{
 	public static void main(String[] args) throws IOException {
-		
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		String[] vals = reader.readLine().split(" ");
 		
@@ -14,7 +13,6 @@ public class workstations{
 		
 		//number of workstations needed to be unlocked
 		int unlockedNum = 0;
-		
 		PriorityQueue<Integer> lockingTimePQ = new PriorityQueue<Integer>();
 		
 		//storing all researchers arrival and usage time
