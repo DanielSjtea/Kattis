@@ -6,7 +6,6 @@ public class pairingsocks{
 		long pairs = sc.nextLong();
 		long count = 0;
 		long completedPairs = 0;
-		
 		Stack<Long> sockStack1 = new Stack<Long>();
 		Stack<Long> sockStack2 = new Stack<Long>();
 		
