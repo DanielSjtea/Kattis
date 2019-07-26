@@ -1,5 +1,7 @@
 import java.util.*;
 
+//a bunch of hardcode
+
 public class t9spelling{
 	
 	public static void main(String[] args){
