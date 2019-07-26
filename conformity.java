@@ -6,7 +6,6 @@ public class conformity{
 		//no of frosh
 		int num = sc.nextInt();
 		sc.nextLine(); //dummy read
-		
 		HashMap<String, Integer> coursesHash = new HashMap<String, Integer>();
 		
 		for (int i = 0; i < num; i++) {
