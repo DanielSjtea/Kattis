@@ -4,7 +4,6 @@ public class joinstrings{
 	public static void main(String[] args) throws IOException {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		int numStr = Integer.parseInt(reader.readLine()); //input number of strings
-		
 		LList[] arrLList = new LList[numStr];
 		int a = 0, b = 0;
 		
