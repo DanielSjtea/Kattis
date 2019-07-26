@@ -7,7 +7,6 @@ public class weakvertices{
 	public static void main(String[] args) throws IOException{
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		PrintWriter writer = new PrintWriter(System.out);
-		
 		while (true) {
 			int numVerts = Integer.parseInt(reader.readLine());
 			if (numVerts == -1) {
