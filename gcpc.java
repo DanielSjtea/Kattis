@@ -7,7 +7,6 @@ public class gcpc{
 	public static void main(String[] args) throws IOException{
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		PrintWriter writer = new PrintWriter(System.out);
-		
 		String[] lineRead = reader.readLine().split(" ");
 		int numTeam = Integer.parseInt(lineRead[0]);
 		int numEvent = Integer.parseInt(lineRead[1]);
