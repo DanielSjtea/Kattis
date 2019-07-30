@@ -1,9 +1,3 @@
-/* 
- *  Name: Daniel Seah Jieh Tzen
- *  Matric No: A0180335L
- *  Collaborators: Nil
-*/
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Comparator;
