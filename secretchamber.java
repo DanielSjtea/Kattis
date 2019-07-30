@@ -42,7 +42,6 @@ public class secretchamber{
 				System.out.println("no");
 				continue;
 			}
-			
 			boolean tryTranslate = false;
 			for (int k = 0; k < length; k++) {
 				queueBFS.clear(); //reset the queue
