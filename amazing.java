@@ -4,7 +4,6 @@ import java.util.Objects;
 import java.util.Stack;
 
 public class amazing{
-
 	private static String[] directions = {"down", "right", "up", "left"};
 	private static Integer[] shiftX = {0, 1, 0, -1};
 	private static Integer[] shiftY = {-1, 0, 1, 0};
