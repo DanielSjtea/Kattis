@@ -12,7 +12,6 @@ public class shatteredcake{
 			String[] values = reader.readLine().split(" ");
 			total_area += Integer.parseInt(values[0]) * Integer.parseInt(values[1]);
 		}
-		
 		int length = total_area / fullwidth;
 		writer.println(length);
 		writer.flush();
