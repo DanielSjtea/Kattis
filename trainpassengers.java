@@ -8,8 +8,6 @@ public class trainpassengers{
 		int numStations = Integer.parseInt(totalCap_numStations[1]);
 		int currCap = 0;
 		Boolean possible = false;
-		
-		
 		for (int i = 0; i < numStations; i++) {
 			String[] currLine = reader.readLine().split(" ");
 			int left = Integer.parseInt(currLine[0]);
