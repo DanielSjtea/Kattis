@@ -8,12 +8,14 @@ public class brt{
         String[] name = new String[n];
         double[] time1 = new double[n];
         double[] time2 = new double[n];
+        
         for (int i = 0; i < n; i++) {
         	String[] values = reader.readLine().split(" ");
             name[i] = values[0];
             time1[i] = Double.parseDouble(values[1]);
             time2[i] = Double.parseDouble(values[2]);
         }
+        
         double best = 1e9;
         String[] result = new String[4];
         for (int i = 0; i < n; i++) {
